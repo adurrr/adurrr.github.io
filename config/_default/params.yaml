@@ -1,0 +1,55 @@
+# Pages placed under these sections will be shown on homepage and archive page.
+mainSections:
+  - post
+
+# Output page's full content in RSS.
+rssFullContent: true
+favicon: img/open-book.png
+
+# Accepted values: "default", "lastmod"
+# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
+# lastmod = sort by last modified date, in descending order
+SortBy: default
+
+footer:
+  since: 2020
+  customText: ""
+
+dateFormat:
+  published: :date_full
+  lastUpdated: :date_full
+sidebar:
+  emoji: 📖
+  subtitle: Archivar para mantener el presente.
+  avatar: img/circe.gif
+article:
+  headingAnchor: false
+  math: false
+  readingTime: true
+  license:
+    enabled: true
+    default: Licensed under CC BY-NC-SA 4.0
+widgets:
+  homepage:
+    - type: search
+    - type: archives
+      params:
+        limit: 5
+    - type: categories
+      params:
+        limit: 10
+    - type: tag-cloud
+      params:
+        limit: 10
+  page:
+    - type: toc
+opengraph:
+  twitter:
+    site: ""
+    card: summary_large_image
+colorScheme:
+  toggle: true
+  default: auto
+comments:
+  enabled: false
+  provider: disqus
