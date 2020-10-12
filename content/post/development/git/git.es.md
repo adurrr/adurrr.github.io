@@ -1,0 +1,147 @@
++++
+author = "Adur"
+title = "Comandos básicos de Git"
+date = "2020-10-12"
+description = "Comandos básicos de Git"
+featured = true
+tags = [
+    "programación",
+    "git",
+    "buenas prácticas",
+]
+categories = [
+    "desarrollo software",
+]
+series = ["Programación"]
+aliases = [""]
+thumbnail = "images/git.png"
++++
+
+Git es un **software de control de versiones** diseñado por Linus Torvalds, pensando en la **eficiencia y la confiabilidad del mantenimiento de versiones** de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en los archivos y **coordinar el trabajo que varias personas realizan sobre archivos compartido** <cite> [^1]</cite>.
+[^1]: [Wikipedia, Git](https://es.wikipedia.org/wiki/Git)
+
+Para empezar con Git es necesario tener claro que un proyecto se suele guardar en dos lugares: en un repositorio local y uno remoto. El local es la versión que se encuentra en el ordenador donde se realizan los cambios propios y en el remoto es la versión que se guarda en el servicio web de control de versiones que elijas. Lo habitual que se recomienda son los servicios web como [GitLab](https://about.gitlab.com/) o [Gitea](https://gitea.io/en-us/)(en caso de querer autoalojarlo), mientras que el antiguo GitHub ha quedado renegado desde su compra por parte de Microsoft.  
+
+## 
+
+## Configurar git 
+Configuración global de git con un **nombre de usuario o un correo electrónico**:
+```bash
+git config --global user.name "Nombre de Ejemplo"
+git config --global user.email nombre@ejemplo.com 
+```
+## Clonar un repositorio
+Si es un repositorio **local**:
+```bash
+git clone /ruta/del/repositorio
+```
+
+En caso de querer utilizar un proyecto en un repositorio **remoto**:
+```bash
+git clone https://<URL_repositorio_remoto>
+```
+
+## Iniciar un repositorio
+Estando en el directorio en el que queremos **iniciar el repositorio** introducimos en el siguiente comando:
+```bash
+git init
+```
+
+## Crear un commit
+Primero se **agregan los archivos modificados al index** y se **confirma el commit** con un mensaje explicativo:
+```bash
+git add .
+git commit -m "Mensaje explicativo de que se ha hecho"
+```
+
+## Ver la lista de archivos que han cambiado o están en el index
+```bash
+git status
+```
+
+## Crear una rama o cambiar a otra ya creada
+Si quieres **crear** una rama:
+```bash
+git checkout -b <nombre_rama>
+```
+Para cambiar a una rama ya creada:
+```bash
+git checkout <nombre_rama>
+```
+
+## Conectar un repositorio remoto
+Primero, si quieres **ver los repositorios ya conectados**:
+```bash
+git remote -v
+```
+Para **añadir un nuevo repositorio remoto ya existente**:
+```bash
+git remote add origin https://<URL_repositorio_remoto>
+``` 
+
+## Enviar los cambios desde una rama local al repositorio remoto
+
+```bash
+git push origin <nombre_rama>
+```
+
+## Buscar los cambios realizados desde el repositorio remoto que no están en el repositorio local
+
+```bash
+git fetch <origin>
+```
+
+## Fusionar o unir los cambios realizados en la rama “nombre_rama” con la rama actual
+```bash
+git merge <nombre_rama>
+```
+
+## Fusionar los cambios realizados en el repositorio local con e remoto (unifica los comandos fetch y merge en un único comando)
+```bash
+git pull 
+```
+
+## Visualizar los conflictos presentes
+Si se quieren todos los conflictos:
+```bash
+git diff 
+``` 
+Si se quiere **entre dos ramas**:
+```bash
+git diff <rama_origen> <rama_objetivo>
+``` 
+## Visualizar todas las ramas del repositorio local y remoto
+```bash
+git branch -a -v
+```
+
+## Borrar una rama 
+```bash
+git branch -d <nombre_rama>
+```
+
+## Borrar archivos del index y del directorio que está trabajando
+```bash
+git rm <nombre_archivo>
+```
+
+## Visualizar la historia de commits de la rama donde te encuentre
+```bash
+git log --graph
+```
+
+## Visualizar la historia de commits de todo (repositorio local y remoto) 
+```bash
+git log --graph --all
+```
+
+## Inspeccionar un repositorio 
+Si se quiere inspccionar un repositorio **local**:
+```bash
+git  show
+```
+
+Si se trata de un repositorio **remoto**: 
+```bash
+git remote show origin
+```
