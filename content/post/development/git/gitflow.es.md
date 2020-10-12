@@ -1,0 +1,50 @@
++++
+author = "Adur"
+title = "Gitflow"
+date = "2020-10-12"
+description = "Gitflow"
+featured = true
+tags = [
+    "programación",
+    "git",
+    "gitflow",
+    "buenas prácticas",
+]
+categories = [
+    "desarrollo software",
+    "devops"
+]
+series = ["Programación"]
+aliases = [""]
+thumbnail = "images/git.png"
+toc = true
+draft = false
++++
+
+En esta entrada se definirá el **flujo de trabajo aplicado a un repositorio git** conocido comunmente como **Gitflow**. Para entender dicho flujo de trabajo es necesario entender previamente qué es y para qué sirve git. Después de tener una base fijada, es habitual que vaya sobre ruedas.
+
+## ¿Qué es git?
+
+Git es un **software de control de versiones** diseñado por Linus Torvalds, pensando en la **eficiencia y la confiabilidad del mantenimiento de versiones** de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en los archivos y **coordinar el trabajo que varias personas realizan sobre archivos compartido** <cite> [^1]</cite>.
+[^1]: [Wikipedia, Git](https://es.wikipedia.org/wiki/Git)
+
+Si quieres aprender más sobre los comandos más usados de git, visita [esta entrada](/2020-10-12_git).
+
+## Introducción a Gitflow
+
+**Gitflow** es un flujo de trabajo para ayudar el desarrollo continuo de software y la implementación de prácticas DevOps. Fue publicado por primera vez por [Vincent Driessen en nvie](https://nvie.com/posts/a-successful-git-branching-model/) en el 2010. 
+
+
+## ¿Cómo funciona?
+
+Permite la paralelización del desarrollo asignando roles específicos a las diferentes ramas para preparar, mantener y publicar versiones del proyecto y para la reparación de errores sin que cunda el pánico.
+
+
+## Programas GUI de git
+
+Buscando programas con una interfaz gráfica para gestionar git de manera sencilla y sean de código abierto o de software libre, se encuentran los siguientes:
+
++ [gitg](https://gitlab.gnome.org/GNOME/gitg/)
++ [GitAhead](https://github.com/gitahead/gitahead)
++ [git-cola](https://github.com/git-cola/git-cola)
++ [Git Extensions](https://github.com/gitextensions/gitextensions)
