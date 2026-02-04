@@ -1,0 +1,17 @@
+en:
+  languageName: English
+  languagedirection: ltr
+  title: Adur
+  weight: 1
+  params:
+    sidebar:
+      subtitle: Archiving to preserve the present  
+es:
+  languageName: Castellano
+  languagedirection: ltr
+  title: Adur
+  weight: 1  
+  params:
+    sidebar:
+      subtitle: Archivar para mantener el presente
+
