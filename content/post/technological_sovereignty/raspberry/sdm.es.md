@@ -2,7 +2,7 @@
 author = "Adur"
 title = "Personalizando un Raspberry Pi OS cifrado con sdm"
 date = "2025-12-21"
-description = ""
+description = "Uso sdm para crear una imagen de Raspberry Pi OS completamente cifrada que puedes desbloquear por SSH, configurada una vez y grabada en todas las tarjetas que necesites."
 featured = true
 tags = [
     "LUKS",

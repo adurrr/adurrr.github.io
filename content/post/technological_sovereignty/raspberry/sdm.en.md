@@ -2,7 +2,7 @@
 author = "Adur"
 title = "Customizing an encrypted Raspberry Pi OS with sdm"
 date = "2025-12-21"
-description = ""
+description = "Using sdm to build a fully encrypted Raspberry Pi OS image you can unlock over SSH, configured once and burned to as many cards as you need."
 featured = true
 tags = [
     "LUKS",
