@@ -2,7 +2,7 @@
 title: Data
 description: Notes about Data Analysis and Intelligent Systems fields.
 
-image:
+image: images/categories/data.jpg
 
 # Badge style
 style:

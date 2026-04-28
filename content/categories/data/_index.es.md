@@ -1,7 +1,7 @@
 ---
 title: Datos
 description: Notas sobre análisis de datos y sistemas inteligentes
-image:
+image: images/categories/data.jpg
 
 # Badge style
 style:
