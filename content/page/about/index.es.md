@@ -36,16 +36,18 @@ Ingeniero DevSecOps con experiencia en el diseño e implementación de infraestr
 
 ### Proyectos destacados
 
-<!-- TODO: Añadir proyectos específicos con enlaces y descripciones -->
-- Automatización y bastionado de infraestructura con Ansible
-- Despliegue y seguridad de clústeres Kubernetes
-- Arquitectura de servicios autoalojados en Raspberry Pi
-- Diseño de pipelines de entrenamiento MLOps
+### Proyectos destacados
+
+- **Automatización de Infraestructura** — Pipelines de hardening y provisioning con Ansible para entornos bare-metal y cloud
+- **Seguridad Kubernetes** — Despliegue de clústeres, políticas de red, Pod Security Standards y detección de amenazas en tiempo de ejecución
+- **Arquitectura Autoalojada** — Infraestructura soberana basada en Raspberry Pi con OPNSense, Nextcloud y servicios personalizados
+- **Pipelines MLOps y AIOps** — Entrenamiento de ML end-to-end, versionado de modelos y despliegue automatizado
+- **Tooling DevSecOps** — Integración shift-left con Trivy, Semgrep, SAST/DAST en CI/CD
 
 ---
 
 ### Contacto
 
-- **GitHub:** [adurrr](https://github.com/adurrr)
+- **GitHub:** [github.com/adurrr](https://github.com/adurrr)
 - **Web:** [adurrr.github.io](https://adurrr.github.io)
-<!-- TODO: Añadir métodos de contacto adicionales -->
+- **Mastodon:** [@adur@fe.disroot.org](https://fe.disroot.org/@adur)

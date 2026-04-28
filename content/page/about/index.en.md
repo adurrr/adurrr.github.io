@@ -36,16 +36,18 @@ DevSecOps engineer with experience in designing and implementing secure, automat
 
 ### Key Projects & Portfolio Highlights
 
-<!-- TODO: Add specific projects with links and descriptions -->
-- Infrastructure automation and hardening with Ansible
-- Kubernetes cluster deployment and security
-- Self-hosted service architecture on Raspberry Pi
-- MLOps training pipeline design
+### Selected Work
+
+- **Infrastructure Automation** — Ansible-based hardening and provisioning pipelines for bare-metal and cloud environments
+- **Kubernetes Security** — Cluster deployment, network policies, Pod Security Standards, and runtime threat detection
+- **Self-Hosted Architecture** — Raspberry Pi-based sovereign infrastructure with OPNSense, Nextcloud, and custom services
+- **MLOps & AIOps Pipelines** — End-to-end ML training, model versioning, and automated deployment workflows
+- **DevSecOps Tooling** — Shift-left security integration with Trivy, Semgrep, SAST/DAST in CI/CD
 
 ---
 
 ### Contact
 
-- **GitHub:** [adurrr](https://github.com/adurrr)
+- **GitHub:** [github.com/adurrr](https://github.com/adurrr)
 - **Website:** [adurrr.github.io](https://adurrr.github.io)
-<!-- TODO: Add additional contact methods -->
+- **Mastodon:** [@adur@fe.disroot.org](https://fe.disroot.org/@adur)

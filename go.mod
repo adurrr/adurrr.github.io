@@ -1,4 +1,4 @@
-module github.com/CaiJimmy/hugo-theme-stack-starter
+module github.com/adurrr/adurrr.github.io
 
 go 1.17
 
