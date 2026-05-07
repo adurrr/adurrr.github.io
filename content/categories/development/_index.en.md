@@ -1,7 +1,7 @@
 ---
 title: Development
 description: Notes about Development principles, practices, standardization efforts, tools, ...
-image:
+image: images/categories/development.jpg
 
 # Badge style
 style:

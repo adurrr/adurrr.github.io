@@ -1,7 +1,7 @@
 ---
 title: Desarrollo software
 description: Notas sobre desarrollo software, sus principios, prácticas, esfuerzos de estandarización, herramientas, ... 
-image:
+image: images/categories/development.jpg
 
 # Badge style
 style:

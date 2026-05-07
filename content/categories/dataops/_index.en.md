@@ -1,7 +1,7 @@
 ---
 title: DataOps
 description: Data pipelines, AIOps, MLOps, and DataOps practices.
-image:
+image: images/categories/dataops.jpg
 
 style:
     background: "#9b0a1d"

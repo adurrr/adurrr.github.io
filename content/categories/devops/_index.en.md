@@ -1,7 +1,7 @@
 ---
 title: DevOps
 description: Notes about DevOps principles, practices, standardization efforts, tools, ...
-image:
+image: images/categories/devops.jpg
 
 # Badge style
 style:
