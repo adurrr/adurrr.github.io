@@ -1,0 +1,27 @@
+default:
+  image: "${CI_TEMPLATE_REGISTRY_HOST}/pages/hugo/hugo_extended:latest"
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  HUGO_ENV: production
+
+before_script:
+  - apk add --no-cache go curl bash nodejs
+  ## Uncomment the following if you use PostCSS. See https://gohugo.io/hugo-pipes/postcss/
+  #- npm install postcss postcss-cli autoprefixer
+
+test:
+  script:
+    - hugo
+  rules:
+    - if: $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+
+pages:
+  script:
+    - hugo
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  environment: production
